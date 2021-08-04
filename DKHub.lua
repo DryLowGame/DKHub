@@ -229,6 +229,8 @@ bfSF.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 bfSF.Position = UDim2.new(0.289719671, 0, 0.181355953, 0)
 bfSF.Size = UDim2.new(0, 329, 0, 332)
 bfSF.Visible = false
+bfSF.Active = true
+bfSF.Draggable = true
 
 bf.Name = "bf"
 bf.Parent = bfSF
@@ -471,6 +473,8 @@ afsSF.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 afsSF.Position = UDim2.new(0.267875016, 0, 0.198305085, 0)
 afsSF.Size = UDim2.new(0, 381, 0, 356)
 afsSF.Visible = false
+afsSF.Active = true
+afsSF.Draggable = true
 
 afs.Name = "afs"
 afs.Parent = afsSF
@@ -543,6 +547,8 @@ psxSF.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 psxSF.Position = UDim2.new(0.267875016, 0, 0.198305085, 0)
 psxSF.Size = UDim2.new(0, 381, 0, 356)
 psxSF.Visible = false
+psxSF.Active = true
+psxSF.Draggable = true
 
 psx.Name = "psx"
 psx.Parent = psxSF
