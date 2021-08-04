@@ -1,4 +1,4 @@
--- Version: 2.0
+-- 2.5
 
 -- Instances:
 
@@ -309,8 +309,6 @@ OpenButtons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 OpenButtons.BackgroundTransparency = 1.000
 OpenButtons.Position = UDim2.new(0, 0, 0.569491506, 0)
 OpenButtons.Size = UDim2.new(0, 149, 0, 100)
-OpenButtons.Active = true
-OpenButtons.Draggable = true
 
 OpenOptionButton.Name = "OpenOptionButton"
 OpenOptionButton.Parent = OpenButtons
@@ -412,8 +410,8 @@ Bf.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Bf.Position = UDim2.new(0.073820889, 0, -0.00019556284, 0)
 Bf.Size = UDim2.new(0, 421, 0, 447)
 Bf.Visible = false
-Bf.Draggable = true
 Bf.Active = true
+Bf.Draggable = true
 
 Title.Name = "Title"
 Title.Parent = Bf
@@ -575,8 +573,8 @@ Afs.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Afs.Position = UDim2.new(0.073820889, 0, -0.00019556284, 0)
 Afs.Size = UDim2.new(0, 421, 0, 447)
 Afs.Visible = false
-Afs.Draggable = true
 Afs.Active = true
+Afs.Draggable = true
 
 Title_3.Name = "Title"
 Title_3.Parent = Afs
@@ -693,7 +691,7 @@ UICorner_28.Parent = upd_2
 
 -- Scripts:
 
-local function JSTYF_fake_script() -- Check.LocalScript 
+local function UABLC_fake_script() -- Check.LocalScript 
 	local script = Instance.new('LocalScript', Check)
 
 	local button = script.Parent
@@ -704,10 +702,11 @@ local function JSTYF_fake_script() -- Check.LocalScript
 	button.MouseButton1Click:Connect(function()
 		if id.Text == "1dcd2r888f8dc"
 		or id.Text == "12554f5ff8c89"
-		or id.Text == "5542555eedcbe"
-		or id.Text == "12ff58ccc9ade"
-		or id.Text == "7c4545daaacbb"
-		or id.Text == "1262008admin" then
+		or id.Text == "e5542555eedcb"
+		or id.Text == "12ff58ccc9asd"
+		or id.Text == "74545daaacbb"
+		or id.Text == "1262008admin"
+		then
 			button.Active = false
 			status.TextColor3 = Color3.new(0, 0, 0)
 			status.Text = "Checking..."
@@ -725,7 +724,7 @@ local function JSTYF_fake_script() -- Check.LocalScript
 			status.TextColor3 = Color3.new(1, 0, 0)
 			status.Text = "Loading Legacy Hub!"
 			wait(2)
-			script.Parent.Parent.Visible = false
+			script.Parent.Parent:Destroy()
 			option.Visible = true
 		else
 			status.TextColor3 = Color3.new(0, 0, 0)
@@ -744,8 +743,8 @@ local function JSTYF_fake_script() -- Check.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JSTYF_fake_script)()
-local function PIWSC_fake_script() -- Close.LocalScript 
+coroutine.wrap(UABLC_fake_script)()
+local function TQBBQI_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local button = script.Parent
@@ -757,8 +756,8 @@ local function PIWSC_fake_script() -- Close.LocalScript
 		openbutton.Visible = true
 	end)
 end
-coroutine.wrap(PIWSC_fake_script)()
-local function UUJBIMZ_fake_script() -- BFsupport.LocalScript 
+coroutine.wrap(TQBBQI_fake_script)()
+local function OPRWS_fake_script() -- BFsupport.LocalScript 
 	local script = Instance.new('LocalScript', BFsupport)
 
 	local button = script.Parent
@@ -766,11 +765,11 @@ local function UUJBIMZ_fake_script() -- BFsupport.LocalScript
 	--
 	button.MouseButton1Click:Connect(function()
 		hub.Visible = true
-		script.Parent.Parent.Visible = false
+		script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(UUJBIMZ_fake_script)()
-local function CDJDJT_fake_script() -- BSSsupport.LocalScript 
+coroutine.wrap(OPRWS_fake_script)()
+local function LVRRT_fake_script() -- BSSsupport.LocalScript 
 	local script = Instance.new('LocalScript', BSSsupport)
 
 	local button = script.Parent
@@ -778,11 +777,11 @@ local function CDJDJT_fake_script() -- BSSsupport.LocalScript
 	--
 	button.MouseButton1Click:Connect(function()
 		hub.Visible = true
-		script.Parent.Parent.Visible = false
+		script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(CDJDJT_fake_script)()
-local function OKEGXFY_fake_script() -- AFSsupport.LocalScript 
+coroutine.wrap(LVRRT_fake_script)()
+local function VPMK_fake_script() -- AFSsupport.LocalScript 
 	local script = Instance.new('LocalScript', AFSsupport)
 
 	local button = script.Parent
@@ -790,11 +789,11 @@ local function OKEGXFY_fake_script() -- AFSsupport.LocalScript
 	--
 	button.MouseButton1Click:Connect(function()
 		hub.Visible = true
-		script.Parent.Parent.Visible = false
+		script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(OKEGXFY_fake_script)()
-local function OFTYDT_fake_script() -- PSXsupport.LocalScript 
+coroutine.wrap(VPMK_fake_script)()
+local function BJFNSN_fake_script() -- PSXsupport.LocalScript 
 	local script = Instance.new('LocalScript', PSXsupport)
 
 	local button = script.Parent
@@ -802,11 +801,11 @@ local function OFTYDT_fake_script() -- PSXsupport.LocalScript
 	--
 	button.MouseButton1Click:Connect(function()
 		hub.Visible = true
-		script.Parent.Parent.Visible = false
+		script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(OFTYDT_fake_script)()
-local function TBOO_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(BJFNSN_fake_script)()
+local function LHQH_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	local button = script.Parent
@@ -817,8 +816,8 @@ local function TBOO_fake_script() -- Close_2.LocalScript
 		openbutton.Visible = true
 	end)
 end
-coroutine.wrap(TBOO_fake_script)()
-local function MQOYL_fake_script() -- OpenOptionButton.LocalScript 
+coroutine.wrap(LHQH_fake_script)()
+local function KKDW_fake_script() -- OpenOptionButton.LocalScript 
 	local script = Instance.new('LocalScript', OpenOptionButton)
 
 	local button = script.Parent
@@ -830,8 +829,8 @@ local function MQOYL_fake_script() -- OpenOptionButton.LocalScript
 		button.Visible = false
 	end)
 end
-coroutine.wrap(MQOYL_fake_script)()
-local function SXROG_fake_script() -- OpenBssButton.LocalScript 
+coroutine.wrap(KKDW_fake_script)()
+local function RHED_fake_script() -- OpenBssButton.LocalScript 
 	local script = Instance.new('LocalScript', OpenBssButton)
 
 	local button = script.Parent
@@ -842,8 +841,8 @@ local function SXROG_fake_script() -- OpenBssButton.LocalScript
 		button.Visible = false
 	end)
 end
-coroutine.wrap(SXROG_fake_script)()
-local function CMJNYKD_fake_script() -- OpenBfButton.LocalScript 
+coroutine.wrap(RHED_fake_script)()
+local function EAQO_fake_script() -- OpenBfButton.LocalScript 
 	local script = Instance.new('LocalScript', OpenBfButton)
 
 	local button = script.Parent
@@ -855,8 +854,8 @@ local function CMJNYKD_fake_script() -- OpenBfButton.LocalScript
 		button.Visible = false
 	end)
 end
-coroutine.wrap(CMJNYKD_fake_script)()
-local function DCJOVIY_fake_script() -- OpenAfsButton.LocalScript 
+coroutine.wrap(EAQO_fake_script)()
+local function AWWUV_fake_script() -- OpenAfsButton.LocalScript 
 	local script = Instance.new('LocalScript', OpenAfsButton)
 
 	local button = script.Parent
@@ -868,8 +867,8 @@ local function DCJOVIY_fake_script() -- OpenAfsButton.LocalScript
 		button.Visible = false
 	end)
 end
-coroutine.wrap(DCJOVIY_fake_script)()
-local function HIJBKJ_fake_script() -- OpenPsxButton.LocalScript 
+coroutine.wrap(AWWUV_fake_script)()
+local function UAYAN_fake_script() -- OpenPsxButton.LocalScript 
 	local script = Instance.new('LocalScript', OpenPsxButton)
 
 	local button = script.Parent
@@ -881,8 +880,8 @@ local function HIJBKJ_fake_script() -- OpenPsxButton.LocalScript
 		button.Visible = false
 	end)
 end
-coroutine.wrap(HIJBKJ_fake_script)()
-local function UQIRJGX_fake_script() -- OpenReqButton.LocalScript 
+coroutine.wrap(UAYAN_fake_script)()
+local function DRQBPQ_fake_script() -- OpenReqButton.LocalScript 
 	local script = Instance.new('LocalScript', OpenReqButton)
 
 	local button = script.Parent
@@ -894,8 +893,8 @@ local function UQIRJGX_fake_script() -- OpenReqButton.LocalScript
 		script.Parent.Visible = false
 	end)
 end
-coroutine.wrap(UQIRJGX_fake_script)()
-local function EEJWZ_fake_script() -- Close_3.LocalScript 
+coroutine.wrap(DRQBPQ_fake_script)()
+local function HKWNZH_fake_script() -- Close_3.LocalScript 
 	local script = Instance.new('LocalScript', Close_3)
 
 	local button = script.Parent
@@ -907,8 +906,8 @@ local function EEJWZ_fake_script() -- Close_3.LocalScript
 		openbutton.Visible = true
 	end)
 end
-coroutine.wrap(EEJWZ_fake_script)()
-local function KDYQTRD_fake_script() -- BKHax.LocalScript 
+coroutine.wrap(HKWNZH_fake_script)()
+local function EFLMWGQ_fake_script() -- BKHax.LocalScript 
 	local script = Instance.new('LocalScript', BKHax)
 
 	local button = script.Parent
@@ -916,8 +915,8 @@ local function KDYQTRD_fake_script() -- BKHax.LocalScript
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/koonpeatch/PeatEX/master/BKHAX/BKHAXHUB"),true))()
 	end)
 end
-coroutine.wrap(KDYQTRD_fake_script)()
-local function UPDTECB_fake_script() -- Mhee.LocalScript 
+coroutine.wrap(EFLMWGQ_fake_script)()
+local function NBAWMJT_fake_script() -- Mhee.LocalScript 
 	local script = Instance.new('LocalScript', Mhee)
 
 	local button = script.Parent
@@ -925,8 +924,8 @@ local function UPDTECB_fake_script() -- Mhee.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnySalf/Hentai/main/MHEEHUB",true))()
 	end)
 end
-coroutine.wrap(UPDTECB_fake_script)()
-local function NBCL_fake_script() -- Xenon.LocalScript 
+coroutine.wrap(NBAWMJT_fake_script)()
+local function ZNHI_fake_script() -- Xenon.LocalScript 
 	local script = Instance.new('LocalScript', Xenon)
 
 	local button = script.Parent
@@ -934,8 +933,8 @@ local function NBCL_fake_script() -- Xenon.LocalScript
 		loadstring(game:HttpGet("https://reaperking.xyz/bloxfruits", true))()
 	end)
 end
-coroutine.wrap(NBCL_fake_script)()
-local function INBLSI_fake_script() -- Evil.LocalScript 
+coroutine.wrap(ZNHI_fake_script)()
+local function JDADNI_fake_script() -- Evil.LocalScript 
 	local script = Instance.new('LocalScript', Evil)
 
 	local button = script.Parent
@@ -943,17 +942,17 @@ local function INBLSI_fake_script() -- Evil.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Natthawat69/EvilHub-FREE/main/Script.lua"))()
 	end)
 end
-coroutine.wrap(INBLSI_fake_script)()
-local function AWFX_fake_script() -- Mammoz.LocalScript 
+coroutine.wrap(JDADNI_fake_script)()
+local function MENOWPY_fake_script() -- Mammoz.LocalScript 
 	local script = Instance.new('LocalScript', Mammoz)
 
 	local button = script.Parent
 	button.MouseButton1Click:Connect(function()
-		print("UPDATING!")
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/DryLowGame/mammoz/main/mammoz.lua"),true))
 	end)
 end
-coroutine.wrap(AWFX_fake_script)()
-local function QJTISYA_fake_script() -- Close_4.LocalScript 
+coroutine.wrap(MENOWPY_fake_script)()
+local function ATFBIJ_fake_script() -- Close_4.LocalScript 
 	local script = Instance.new('LocalScript', Close_4)
 
 	local button = script.Parent
@@ -965,8 +964,8 @@ local function QJTISYA_fake_script() -- Close_4.LocalScript
 		openbutton.Visible = true
 	end)
 end
-coroutine.wrap(QJTISYA_fake_script)()
-local function NEAFVX_fake_script() -- upd.LocalScript 
+coroutine.wrap(ATFBIJ_fake_script)()
+local function PVLZZ_fake_script() -- upd.LocalScript 
 	local script = Instance.new('LocalScript', upd)
 
 	local button = script.Parent
@@ -974,8 +973,8 @@ local function NEAFVX_fake_script() -- upd.LocalScript
 		print("UPDATING!")
 	end)
 end
-coroutine.wrap(NEAFVX_fake_script)()
-local function LQGPC_fake_script() -- Close_5.LocalScript 
+coroutine.wrap(PVLZZ_fake_script)()
+local function ZCQOFQX_fake_script() -- Close_5.LocalScript 
 	local script = Instance.new('LocalScript', Close_5)
 
 	local button = script.Parent
@@ -987,8 +986,8 @@ local function LQGPC_fake_script() -- Close_5.LocalScript
 		openbutton.Visible = true
 	end)
 end
-coroutine.wrap(LQGPC_fake_script)()
-local function HDPHN_fake_script() -- Shrawu.LocalScript 
+coroutine.wrap(ZCQOFQX_fake_script)()
+local function MVJEF_fake_script() -- Shrawu.LocalScript 
 	local script = Instance.new('LocalScript', Shrawu)
 
 	local button = script.Parent
@@ -996,8 +995,8 @@ local function HDPHN_fake_script() -- Shrawu.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/shrawu/ShrawuScript/main/AnimeFightersSimulator.lua", true))()()
 	end)
 end
-coroutine.wrap(HDPHN_fake_script)()
-local function NIYUCDC_fake_script() -- Polar.LocalScript 
+coroutine.wrap(MVJEF_fake_script)()
+local function FEMAE_fake_script() -- Polar.LocalScript 
 	local script = Instance.new('LocalScript', Polar)
 
 	local button = script.Parent
@@ -1005,8 +1004,8 @@ local function NIYUCDC_fake_script() -- Polar.LocalScript
 		loadstring(game:HttpGet(("https://pastebin.com/raw/y4V5Y5DM"),true))()
 	end)
 end
-coroutine.wrap(NIYUCDC_fake_script)()
-local function WAUMQB_fake_script() -- Close_6.LocalScript 
+coroutine.wrap(FEMAE_fake_script)()
+local function DRIR_fake_script() -- Close_6.LocalScript 
 	local script = Instance.new('LocalScript', Close_6)
 
 	local button = script.Parent
@@ -1018,8 +1017,8 @@ local function WAUMQB_fake_script() -- Close_6.LocalScript
 		openbutton.Visible = true
 	end)
 end
-coroutine.wrap(WAUMQB_fake_script)()
-local function RLIONXL_fake_script() -- upd_2.LocalScript 
+coroutine.wrap(DRIR_fake_script)()
+local function FACF_fake_script() -- upd_2.LocalScript 
 	local script = Instance.new('LocalScript', upd_2)
 
 	local button = script.Parent
@@ -1027,4 +1026,4 @@ local function RLIONXL_fake_script() -- upd_2.LocalScript
 		print("UPDATING!")
 	end)
 end
-coroutine.wrap(RLIONXL_fake_script)()
+coroutine.wrap(FACF_fake_script)()
