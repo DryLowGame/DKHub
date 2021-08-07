@@ -1,4 +1,4 @@
--- New UI
+-- V 2.0
 
 -- Instances:
 
@@ -614,7 +614,8 @@ local function NFDP_fake_script() -- Check.LocalScript
 			or id.Text == "e5542555eedcb" and game.PlaceId == 4442272183 
 			or id.Text == "74545daaacbb" and game.PlaceId == 4442272183 
 			or Id.Text == "12ff58ccc9asd" and game.PlaceId == 4442272183 
-			or Id.Text == "1262008admin" and game.PlaceId == 4442272183 then
+			or Id.Text == "1262008admin" and game.PlaceId == 4442272183
+            or Id.Text == "test" and game.PlaceId == 4442272183 then
 			status.TextColor3 = Color3.new(1, 1, 0)
 			status.Text = "Checking"
 			wait(2)
@@ -642,7 +643,8 @@ local function NFDP_fake_script() -- Check.LocalScript
 			or id.Text == "e5542555eedcb" and game.PlaceId == 1537690962 
 			or id.Text == "74545daaacbb" and game.PlaceId == 1537690962 
 			or Id.Text == "12ff58ccc9asd" and game.PlaceId == 1537690962 
-			or Id.Text == "1262008admin" and game.PlaceId == 1537690962 then
+			or Id.Text == "1262008admin" and game.PlaceId == 1537690962
+            or Id.Text == "test" and game.PlaceId == 1537690962 then
 			status.TextColor3 = Color3.new(1, 1, 0)
 			status.Text = "Checking"
 			wait(2)
@@ -670,7 +672,8 @@ local function NFDP_fake_script() -- Check.LocalScript
 			or id.Text == "e5542555eedcb" and game.PlaceId == 6284583030
 			or id.Text == "12ff58ccc9asd" and game.PlaceId == 6284583030
 			or id.Text == "74545daaacbb" and game.PlaceId == 6284583030
-			or id.Text == "1262008admin" and game.PlaceId == 6284583030 then
+			or id.Text == "1262008admin" and game.PlaceId == 6284583030
+            or Id.Text == "test" and game.PlaceId == 6284583030 then
 			status.TextColor3 = Color3.new(1, 1, 0)
 			status.Text = "Checking"
 			wait(2)
@@ -698,7 +701,8 @@ local function NFDP_fake_script() -- Check.LocalScript
 			or id.Text == "e5542555eedcb" and game.PlaceId == 6299805723 
 			or id.Text == "12ff58ccc9asd" and game.PlaceId == 6299805723 
 			or id.Text == "74545daaacbb" and game.PlaceId == 6299805723 
-			or id.Text == "1262008admin"  and game.PlaceId == 6299805723  then
+			or id.Text == "1262008admin"  and game.PlaceId == 6299805723
+            or id.Text == "test"  and game.PlaceId == 6299805723 then
 			status.TextColor3 = Color3.new(1, 1, 0)
 			status.Text = "Checking"
 			wait(2)
