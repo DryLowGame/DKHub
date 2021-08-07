@@ -1,89 +1,79 @@
--- 2.5
+-- New UI
 
 -- Instances:
 
 local Paid = Instance.new("ScreenGui")
 local Req = Instance.new("Frame")
-local LegacyHub = Instance.new("TextLabel")
 local UICorner = Instance.new("UICorner")
 local UIGradient = Instance.new("UIGradient")
+local LegacyHub = Instance.new("TextLabel")
+local Id = Instance.new("TextBox")
+local IDtext = Instance.new("TextLabel")
 local UIGradient_2 = Instance.new("UIGradient")
-local UICorner_2 = Instance.new("UICorner")
-local ID = Instance.new("TextBox")
-local UICorner_3 = Instance.new("UICorner")
-local IDTitle = Instance.new("TextLabel")
 local Check = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
-local STATUSTitle = Instance.new("TextLabel")
-local Status = Instance.new("TextLabel")
-local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local status = Instance.new("TextLabel")
 local Close = Instance.new("TextButton")
-local Option = Instance.new("Frame")
-local Select = Instance.new("TextLabel")
+local Openbuttons = Instance.new("Frame")
+local openbf = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Openbss = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local openafs = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
+local openpx = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
-local UIGradient_4 = Instance.new("UIGradient")
-local Border = Instance.new("TextLabel")
-local BFsupport = Instance.new("TextButton")
+local Openlogin = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
-local BSSsupport = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local AFSsupport = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local PSXsupport = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
+local Afs = Instance.new("Frame")
+local UIGradient_3 = Instance.new("UIGradient")
+local Afs_2 = Instance.new("TextLabel")
 local Close_2 = Instance.new("TextButton")
-local OpenButtons = Instance.new("Frame")
-local OpenOptionButton = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local OpenBssButton = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local OpenBfButton = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local OpenAfsButton = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local OpenPsxButton = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local OpenReqButton = Instance.new("ImageLabel")
-local Games = Instance.new("Frame")
-local Bf = Instance.new("ScrollingFrame")
-local Title = Instance.new("TextLabel")
-local UIGradient_5 = Instance.new("UIGradient")
-local Close_3 = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
-local BKHax = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local Mhee = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
-local Xenon = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local Evil = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
-local Mammoz = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local Bss = Instance.new("ScrollingFrame")
-local Title_2 = Instance.new("TextLabel")
-local UIGradient_6 = Instance.new("UIGradient")
-local Close_4 = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
-local upd = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
-local Afs = Instance.new("ScrollingFrame")
-local Title_3 = Instance.new("TextLabel")
-local UIGradient_7 = Instance.new("UIGradient")
-local Close_5 = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
-local Shrawu = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
 local Polar = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
-local Psx = Instance.new("ScrollingFrame")
-local Title_4 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_8 = Instance.new("UICorner")
+local Shrawu = Instance.new("TextButton")
+local UIGradient_5 = Instance.new("UIGradient")
+local UICorner_9 = Instance.new("UICorner")
+local BloxFruits = Instance.new("Frame")
+local UIGradient_6 = Instance.new("UIGradient")
+local Bf = Instance.new("TextLabel")
+local Close_3 = Instance.new("TextButton")
+local BKHax = Instance.new("TextButton")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_10 = Instance.new("UICorner")
+local Mammoz = Instance.new("TextButton")
 local UIGradient_8 = Instance.new("UIGradient")
-local Close_6 = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
-local upd_2 = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
+local Xenon = Instance.new("TextButton")
+local UIGradient_9 = Instance.new("UIGradient")
+local UICorner_12 = Instance.new("UICorner")
+local Evil = Instance.new("TextButton")
+local UIGradient_10 = Instance.new("UIGradient")
+local UICorner_13 = Instance.new("UICorner")
+local Mhee = Instance.new("TextButton")
+local UIGradient_11 = Instance.new("UIGradient")
+local UICorner_14 = Instance.new("UICorner")
+local Bss = Instance.new("Frame")
+local UIGradient_12 = Instance.new("UIGradient")
+local Bss_2 = Instance.new("TextLabel")
+local Close_4 = Instance.new("TextButton")
+local Histy = Instance.new("TextButton")
+local UIGradient_13 = Instance.new("UIGradient")
+local UICorner_15 = Instance.new("UICorner")
+local DarkCyber = Instance.new("TextButton")
+local UIGradient_14 = Instance.new("UIGradient")
+local UICorner_16 = Instance.new("UICorner")
+local Psx = Instance.new("Frame")
+local UIGradient_15 = Instance.new("UIGradient")
+local Psx_2 = Instance.new("TextLabel")
+local Close_5 = Instance.new("TextButton")
+local SystemExodus = Instance.new("TextButton")
+local UIGradient_16 = Instance.new("UIGradient")
+local UICorner_17 = Instance.new("UICorner")
+local Naypramx = Instance.new("TextButton")
+local UIGradient_17 = Instance.new("UIGradient")
+local UICorner_18 = Instance.new("UICorner")
 
 --Properties:
 
@@ -94,909 +84,730 @@ Paid.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Req.Name = "Req"
 Req.Parent = Paid
 Req.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Req.Position = UDim2.new(0.149099082, 0, 0.0220338982, 0)
-Req.Size = UDim2.new(0, 692, 0, 563)
+Req.Position = UDim2.new(0.213099629, 0, 0.0550284684, 0)
+Req.Size = UDim2.new(0, 563, 0, 433)
 Req.Active = true
 Req.Draggable = true
+
+UICorner.Parent = Req
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 170, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 170, 127))}
+UIGradient.Parent = Req
 
 LegacyHub.Name = "LegacyHub"
 LegacyHub.Parent = Req
 LegacyHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LegacyHub.Position = UDim2.new(0, 0, -0.00159222633, 0)
-LegacyHub.Size = UDim2.new(0, 692, 0, 302)
+LegacyHub.BackgroundTransparency = 1.000
+LegacyHub.BorderColor3 = Color3.fromRGB(27, 42, 53)
+LegacyHub.Size = UDim2.new(0, 571, 0, 201)
 LegacyHub.Font = Enum.Font.LuckiestGuy
 LegacyHub.Text = "Legacy Hub"
-LegacyHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+LegacyHub.TextColor3 = Color3.fromRGB(255, 0, 0)
 LegacyHub.TextScaled = true
 LegacyHub.TextSize = 14.000
 LegacyHub.TextWrapped = true
 
-UICorner.Parent = LegacyHub
+Id.Name = "Id"
+Id.Parent = Req
+Id.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Id.Position = UDim2.new(0, 0, 0.618937671, 0)
+Id.Size = UDim2.new(0, 248, 0, 50)
+Id.ClearTextOnFocus = false
+Id.Font = Enum.Font.Code
+Id.Text = ""
+Id.TextColor3 = Color3.fromRGB(255, 255, 255)
+Id.TextSize = 20.000
+Id.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 0))}
-UIGradient.Parent = LegacyHub
+IDtext.Name = "IDtext"
+IDtext.Parent = Req
+IDtext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IDtext.BackgroundTransparency = 1.000
+IDtext.Position = UDim2.new(0.0408525765, 0, 0.503464222, 0)
+IDtext.Size = UDim2.new(0, 200, 0, 50)
+IDtext.Font = Enum.Font.Roboto
+IDtext.Text = "Your Id"
+IDtext.TextColor3 = Color3.fromRGB(255, 255, 255)
+IDtext.TextScaled = true
+IDtext.TextSize = 14.000
+IDtext.TextWrapped = true
 
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 170, 0))}
-UIGradient_2.Parent = Req
-
-UICorner_2.Parent = Req
-
-ID.Name = "ID"
-ID.Parent = Req
-ID.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ID.Position = UDim2.new(0.039017342, 0, 0.722912967, 0)
-ID.Size = UDim2.new(0, 247, 0, 61)
-ID.ClearTextOnFocus = false
-ID.Font = Enum.Font.GothamBlack
-ID.Text = ""
-ID.TextColor3 = Color3.fromRGB(255, 255, 255)
-ID.TextScaled = true
-ID.TextSize = 14.000
-ID.TextWrapped = true
-
-UICorner_3.Parent = ID
-
-IDTitle.Name = "IDTitle"
-IDTitle.Parent = Req
-IDTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-IDTitle.BackgroundTransparency = 1.000
-IDTitle.Position = UDim2.new(0.0722543374, 0, 0.634103, 0)
-IDTitle.Size = UDim2.new(0, 200, 0, 50)
-IDTitle.Font = Enum.Font.Code
-IDTitle.Text = "ID"
-IDTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
-IDTitle.TextScaled = true
-IDTitle.TextSize = 14.000
-IDTitle.TextWrapped = true
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 127))}
+UIGradient_2.Parent = IDtext
 
 Check.Name = "Check"
 Check.Parent = Req
-Check.BackgroundColor3 = Color3.fromRGB(0, 85, 0)
-Check.Position = UDim2.new(0.0722543374, 0, 0.875666082, 0)
-Check.Size = UDim2.new(0, 200, 0, 50)
-Check.Font = Enum.Font.SourceSans
+Check.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+Check.Position = UDim2.new(0.104795739, 0, 0.789838314, 0)
+Check.Size = UDim2.new(0, 130, 0, 50)
+Check.Font = Enum.Font.SciFi
 Check.Text = "Check"
-Check.TextColor3 = Color3.fromRGB(255, 255, 255)
+Check.TextColor3 = Color3.fromRGB(0, 0, 0)
 Check.TextScaled = true
 Check.TextSize = 14.000
 Check.TextWrapped = true
 
-UICorner_4.Parent = Check
+UICorner_2.Parent = Check
 
-STATUSTitle.Name = "STATUSTitle"
-STATUSTitle.Parent = Req
-STATUSTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-STATUSTitle.BackgroundTransparency = 1.000
-STATUSTitle.Position = UDim2.new(0.52658695, 0, 0.584827006, 0)
-STATUSTitle.Size = UDim2.new(0, 235, 0, 50)
-STATUSTitle.Font = Enum.Font.RobotoMono
-STATUSTitle.Text = "STATUS"
-STATUSTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
-STATUSTitle.TextScaled = true
-STATUSTitle.TextSize = 14.000
-STATUSTitle.TextWrapped = true
-
-Status.Name = "Status"
-Status.Parent = Req
-Status.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Status.Position = UDim2.new(0.497205287, 0, 0.674901366, 0)
-Status.Size = UDim2.new(0, 276, 0, 73)
-Status.Font = Enum.Font.Arcade
-Status.Text = "NONE"
-Status.TextColor3 = Color3.fromRGB(0, 0, 0)
-Status.TextSize = 25.000
-
-UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_3.Parent = Status
+status.Name = "status"
+status.Parent = Req
+status.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+status.BackgroundTransparency = 1.000
+status.Position = UDim2.new(0.172291294, 0, 0.334872991, 0)
+status.Size = UDim2.new(0, 369, 0, 50)
+status.Font = Enum.Font.GothamBold
+status.Text = "STATUS"
+status.TextColor3 = Color3.fromRGB(255, 255, 255)
+status.TextSize = 20.000
 
 Close.Name = "Close"
 Close.Parent = Req
 Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Close.BackgroundTransparency = 1.000
-Close.Position = UDim2.new(-0.00108444691, 0, -0.00197488838, 0)
-Close.Size = UDim2.new(0, 56, 0, 50)
-Close.Font = Enum.Font.SciFi
+Close.Position = UDim2.new(0.891651928, 0, 0, 0)
+Close.Size = UDim2.new(0, 69, 0, 50)
+Close.Font = Enum.Font.GothamBold
 Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close.TextScaled = true
 Close.TextSize = 14.000
 Close.TextWrapped = true
 
-Option.Name = "Option"
-Option.Parent = Paid
-Option.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Option.Position = UDim2.new(0.286238521, 0, 0.177966103, 0)
-Option.Size = UDim2.new(0, 403, 0, 379)
-Option.Visible = false
-Option.Active = true
-Option.Draggable = true
+Openbuttons.Name = "Openbuttons"
+Openbuttons.Parent = Paid
+Openbuttons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Openbuttons.BackgroundTransparency = 1.000
+Openbuttons.Position = UDim2.new(-7.4505806e-09, 0, 0.442125201, 0)
+Openbuttons.Size = UDim2.new(0, 100, 0, 100)
+Openbuttons.Active = true
+Openbuttons.Draggable = true
 
-Select.Name = "Select"
-Select.Parent = Option
-Select.BackgroundColor3 = Color3.fromRGB(103, 83, 255)
-Select.Position = UDim2.new(-0.00248138956, 0, -0.00145340967, 0)
-Select.Size = UDim2.new(0, 404, 0, 95)
-Select.Font = Enum.Font.PermanentMarker
-Select.Text = "Select Game"
-Select.TextColor3 = Color3.fromRGB(0, 0, 0)
-Select.TextSize = 70.000
-Select.TextWrapped = true
+openbf.Name = "openbf"
+openbf.Parent = Openbuttons
+openbf.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+openbf.Position = UDim2.new(0.0617659763, 0, 0.328800976, 0)
+openbf.Size = UDim2.new(0, 47, 0, 34)
+openbf.Visible = false
+openbf.Font = Enum.Font.SourceSans
+openbf.Text = "Open"
+openbf.TextColor3 = Color3.fromRGB(85, 255, 255)
+openbf.TextScaled = true
+openbf.TextSize = 14.000
+openbf.TextWrapped = true
 
-UICorner_5.Parent = Select
+UICorner_3.Parent = openbf
 
-UICorner_6.Parent = Option
+Openbss.Name = "Openbss"
+Openbss.Parent = Openbuttons
+Openbss.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Openbss.Position = UDim2.new(0.0617659763, 0, 0.328800976, 0)
+Openbss.Size = UDim2.new(0, 47, 0, 34)
+Openbss.Visible = false
+Openbss.Font = Enum.Font.SourceSans
+Openbss.Text = "Open"
+Openbss.TextColor3 = Color3.fromRGB(85, 255, 255)
+Openbss.TextScaled = true
+Openbss.TextSize = 14.000
+Openbss.TextWrapped = true
 
-UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 255))}
-UIGradient_4.Parent = Option
+UICorner_4.Parent = Openbss
 
-Border.Name = "Border"
-Border.Parent = Option
-Border.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Border.Position = UDim2.new(-0.00160267949, 0, 0.230803639, 0)
-Border.Size = UDim2.new(0, 403, 0, 13)
-Border.Font = Enum.Font.SourceSans
-Border.Text = ""
-Border.TextColor3 = Color3.fromRGB(0, 0, 0)
-Border.TextSize = 14.000
+openafs.Name = "openafs"
+openafs.Parent = Openbuttons
+openafs.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+openafs.Position = UDim2.new(0.0617659763, 0, 0.328800976, 0)
+openafs.Size = UDim2.new(0, 47, 0, 34)
+openafs.Visible = false
+openafs.Font = Enum.Font.SourceSans
+openafs.Text = "Open"
+openafs.TextColor3 = Color3.fromRGB(85, 255, 255)
+openafs.TextScaled = true
+openafs.TextSize = 14.000
+openafs.TextWrapped = true
 
-BFsupport.Name = "BFsupport"
-BFsupport.Parent = Option
-BFsupport.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
-BFsupport.Position = UDim2.new(0.0272952858, 0, 0.30343008, 0)
-BFsupport.Size = UDim2.new(0, 142, 0, 58)
-BFsupport.Font = Enum.Font.Arcade
-BFsupport.Text = "Blox Fruits"
-BFsupport.TextColor3 = Color3.fromRGB(255, 0, 127)
-BFsupport.TextSize = 20.000
+UICorner_5.Parent = openafs
 
-UICorner_7.Parent = BFsupport
+openpx.Name = "openpx"
+openpx.Parent = Openbuttons
+openpx.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+openpx.Position = UDim2.new(0.0617659763, 0, 0.328800976, 0)
+openpx.Size = UDim2.new(0, 47, 0, 34)
+openpx.Visible = false
+openpx.Font = Enum.Font.SourceSans
+openpx.Text = "Open"
+openpx.TextColor3 = Color3.fromRGB(85, 255, 255)
+openpx.TextScaled = true
+openpx.TextSize = 14.000
+openpx.TextWrapped = true
 
-BSSsupport.Name = "BSSsupport"
-BSSsupport.Parent = Option
-BSSsupport.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
-BSSsupport.Position = UDim2.new(0.612903237, 0, 0.522427499, 0)
-BSSsupport.Size = UDim2.new(0, 142, 0, 58)
-BSSsupport.Font = Enum.Font.Arcade
-BSSsupport.Text = "Bee Swarms Simulator"
-BSSsupport.TextColor3 = Color3.fromRGB(255, 0, 127)
-BSSsupport.TextSize = 20.000
-BSSsupport.TextWrapped = true
+UICorner_6.Parent = openpx
 
-UICorner_8.Parent = BSSsupport
+Openlogin.Name = "Openlogin"
+Openlogin.Parent = Openbuttons
+Openlogin.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Openlogin.Position = UDim2.new(0.0783734024, 0, 0.332011104, 0)
+Openlogin.Size = UDim2.new(0, 47, 0, 34)
+Openlogin.Visible = false
+Openlogin.Font = Enum.Font.SourceSans
+Openlogin.Text = "Open"
+Openlogin.TextColor3 = Color3.fromRGB(85, 255, 255)
+Openlogin.TextScaled = true
+Openlogin.TextSize = 14.000
+Openlogin.TextWrapped = true
 
-AFSsupport.Name = "AFSsupport"
-AFSsupport.Parent = Option
-AFSsupport.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
-AFSsupport.Position = UDim2.new(0.0272952858, 0, 0.52242744, 0)
-AFSsupport.Size = UDim2.new(0, 142, 0, 58)
-AFSsupport.Font = Enum.Font.Arcade
-AFSsupport.Text = "Anime Fighters Simulator"
-AFSsupport.TextColor3 = Color3.fromRGB(255, 0, 127)
-AFSsupport.TextSize = 20.000
-AFSsupport.TextWrapped = true
+UICorner_7.Parent = Openlogin
 
-UICorner_9.Parent = AFSsupport
+Afs.Name = "Afs"
+Afs.Parent = Paid
+Afs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Afs.Position = UDim2.new(0.198936164, 0, 0.0796963945, 0)
+Afs.Size = UDim2.new(0, 453, 0, 417)
+Afs.Visible = false
+Afs.Active = true
+Afs.Draggable = true
 
-PSXsupport.Name = "PSXsupport"
-PSXsupport.Parent = Option
-PSXsupport.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
-PSXsupport.Position = UDim2.new(0.612903237, 0, 0.30343008, 0)
-PSXsupport.Size = UDim2.new(0, 142, 0, 58)
-PSXsupport.Font = Enum.Font.Arcade
-PSXsupport.Text = "Pet SimulatorX"
-PSXsupport.TextColor3 = Color3.fromRGB(255, 0, 127)
-PSXsupport.TextSize = 20.000
-PSXsupport.TextWrapped = true
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 170, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 255, 127))}
+UIGradient_3.Parent = Afs
 
-UICorner_10.Parent = PSXsupport
+Afs_2.Name = "Afs"
+Afs_2.Parent = Afs
+Afs_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Afs_2.BackgroundTransparency = 1.000
+Afs_2.Position = UDim2.new(0.242609888, 0, 0, 0)
+Afs_2.Size = UDim2.new(0, 233, 0, 50)
+Afs_2.Font = Enum.Font.TitilliumWeb
+Afs_2.Text = "Anime Fighters Simulator"
+Afs_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+Afs_2.TextScaled = true
+Afs_2.TextSize = 14.000
+Afs_2.TextWrapped = true
 
 Close_2.Name = "Close"
-Close_2.Parent = Option
+Close_2.Parent = Afs
 Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Close_2.BackgroundTransparency = 1.000
-Close_2.Position = UDim2.new(0.888337493, 0, 0, 0)
-Close_2.Size = UDim2.new(0, 45, 0, 50)
-Close_2.Font = Enum.Font.GothamBlack
+Close_2.Size = UDim2.new(0, 47, 0, 50)
+Close_2.Font = Enum.Font.GothamBold
 Close_2.Text = "X"
-Close_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close_2.TextScaled = true
 Close_2.TextSize = 14.000
 Close_2.TextWrapped = true
 
-OpenButtons.Name = "OpenButtons"
-OpenButtons.Parent = Paid
-OpenButtons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OpenButtons.BackgroundTransparency = 1.000
-OpenButtons.Position = UDim2.new(0, 0, 0.569491506, 0)
-OpenButtons.Size = UDim2.new(0, 149, 0, 100)
+Polar.Name = "Polar"
+Polar.Parent = Afs
+Polar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Polar.Position = UDim2.new(0.0529801324, 0, 0.194244593, 0)
+Polar.Size = UDim2.new(0, 131, 0, 69)
+Polar.Font = Enum.Font.Cartoon
+Polar.Text = "Polar"
+Polar.TextColor3 = Color3.fromRGB(0, 0, 0)
+Polar.TextSize = 30.000
+Polar.TextWrapped = true
 
-OpenOptionButton.Name = "OpenOptionButton"
-OpenOptionButton.Parent = OpenButtons
-OpenOptionButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-OpenOptionButton.Position = UDim2.new(0.0738255009, 0, 0.120000005, 0)
-OpenOptionButton.Size = UDim2.new(0, 92, 0, 58)
-OpenOptionButton.Visible = false
-OpenOptionButton.Font = Enum.Font.RobotoCondensed
-OpenOptionButton.Text = "OPEN"
-OpenOptionButton.TextColor3 = Color3.fromRGB(85, 255, 255)
-OpenOptionButton.TextScaled = true
-OpenOptionButton.TextSize = 14.000
-OpenOptionButton.TextWrapped = true
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_4.Parent = Polar
 
-UICorner_11.Parent = OpenOptionButton
+UICorner_8.Parent = Polar
 
-OpenBssButton.Name = "OpenBssButton"
-OpenBssButton.Parent = OpenButtons
-OpenBssButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-OpenBssButton.Position = UDim2.new(0.0738255009, 0, 0.120000005, 0)
-OpenBssButton.Size = UDim2.new(0, 92, 0, 58)
-OpenBssButton.Visible = false
-OpenBssButton.Font = Enum.Font.RobotoCondensed
-OpenBssButton.Text = "OPEN"
-OpenBssButton.TextColor3 = Color3.fromRGB(85, 255, 255)
-OpenBssButton.TextScaled = true
-OpenBssButton.TextSize = 14.000
-OpenBssButton.TextWrapped = true
+Shrawu.Name = "Shrawu"
+Shrawu.Parent = Afs
+Shrawu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Shrawu.Position = UDim2.new(0.578366458, 0, 0.194244593, 0)
+Shrawu.Size = UDim2.new(0, 131, 0, 69)
+Shrawu.Font = Enum.Font.Cartoon
+Shrawu.Text = "Shrawu"
+Shrawu.TextColor3 = Color3.fromRGB(0, 0, 0)
+Shrawu.TextSize = 30.000
+Shrawu.TextWrapped = true
 
-UICorner_12.Parent = OpenBssButton
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_5.Parent = Shrawu
 
-OpenBfButton.Name = "OpenBfButton"
-OpenBfButton.Parent = OpenButtons
-OpenBfButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-OpenBfButton.Position = UDim2.new(0.0738255009, 0, 0.120000005, 0)
-OpenBfButton.Size = UDim2.new(0, 92, 0, 58)
-OpenBfButton.Visible = false
-OpenBfButton.Font = Enum.Font.RobotoCondensed
-OpenBfButton.Text = "OPEN"
-OpenBfButton.TextColor3 = Color3.fromRGB(85, 255, 255)
-OpenBfButton.TextScaled = true
-OpenBfButton.TextSize = 14.000
-OpenBfButton.TextWrapped = true
+UICorner_9.Parent = Shrawu
 
-UICorner_13.Parent = OpenBfButton
+BloxFruits.Name = "BloxFruits"
+BloxFruits.Parent = Paid
+BloxFruits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFruits.Position = UDim2.new(0.198936149, 0, 0.0796963945, 0)
+BloxFruits.Size = UDim2.new(0, 453, 0, 417)
+BloxFruits.Visible = false
+BloxFruits.Active = true
+BloxFruits.Draggable = true
 
-OpenAfsButton.Name = "OpenAfsButton"
-OpenAfsButton.Parent = OpenButtons
-OpenAfsButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-OpenAfsButton.Position = UDim2.new(0.0738255009, 0, 0.120000005, 0)
-OpenAfsButton.Size = UDim2.new(0, 92, 0, 58)
-OpenAfsButton.Visible = false
-OpenAfsButton.Font = Enum.Font.RobotoCondensed
-OpenAfsButton.Text = "OPEN"
-OpenAfsButton.TextColor3 = Color3.fromRGB(85, 255, 255)
-OpenAfsButton.TextScaled = true
-OpenAfsButton.TextSize = 14.000
-OpenAfsButton.TextWrapped = true
-
-UICorner_14.Parent = OpenAfsButton
-
-OpenPsxButton.Name = "OpenPsxButton"
-OpenPsxButton.Parent = OpenButtons
-OpenPsxButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-OpenPsxButton.Position = UDim2.new(0.0738255009, 0, 0.120000005, 0)
-OpenPsxButton.Size = UDim2.new(0, 92, 0, 58)
-OpenPsxButton.Visible = false
-OpenPsxButton.Font = Enum.Font.RobotoCondensed
-OpenPsxButton.Text = "OPEN"
-OpenPsxButton.TextColor3 = Color3.fromRGB(85, 255, 255)
-OpenPsxButton.TextScaled = true
-OpenPsxButton.TextSize = 14.000
-OpenPsxButton.TextWrapped = true
-
-UICorner_15.Parent = OpenPsxButton
-
-OpenReqButton.Name = "OpenReqButton"
-OpenReqButton.Parent = OpenButtons
-OpenReqButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OpenReqButton.Position = UDim2.new(0.100021347, 0, 0.0606216788, 0)
-OpenReqButton.Size = UDim2.new(0, 70, 0, 69)
-OpenReqButton.Visible = false
-OpenReqButton.Image = "http://www.roblox.com/asset/?id=7201019060"
-
-Games.Name = "Games"
-Games.Parent = Paid
-Games.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Games.BackgroundTransparency = 1.000
-Games.Position = UDim2.new(0.268807352, 0, 0.0830508471, 0)
-Games.Size = UDim2.new(0, 553, 0, 520)
-Games.Active = true
-Games.Draggable = true
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 170, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 255, 127))}
+UIGradient_6.Parent = BloxFruits
 
 Bf.Name = "Bf"
-Bf.Parent = Games
-Bf.Active = true
-Bf.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-Bf.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Bf.Position = UDim2.new(0.073820889, 0, -0.00019556284, 0)
-Bf.Size = UDim2.new(0, 421, 0, 447)
-Bf.Visible = false
-Bf.Active = true
-Bf.Draggable = true
-
-Title.Name = "Title"
-Title.Parent = Bf
-Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title.BackgroundTransparency = 1.000
-Title.Position = UDim2.new(0.234810084, 0, 0.0278846156, 0)
-Title.Size = UDim2.new(0, 200, 0, 50)
-Title.Font = Enum.Font.Cartoon
-Title.Text = "Blox Fruits"
-Title.TextColor3 = Color3.fromRGB(0, 255, 255)
-Title.TextScaled = true
-Title.TextSize = 14.000
-Title.TextWrapped = true
-
-UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 170, 0))}
-UIGradient_5.Parent = Title
+Bf.Parent = BloxFruits
+Bf.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bf.BackgroundTransparency = 1.000
+Bf.Position = UDim2.new(0.277929991, 0, 0, 0)
+Bf.Size = UDim2.new(0, 200, 0, 50)
+Bf.Font = Enum.Font.TitilliumWeb
+Bf.Text = "Blox Fruits"
+Bf.TextColor3 = Color3.fromRGB(255, 0, 0)
+Bf.TextScaled = true
+Bf.TextSize = 14.000
+Bf.TextWrapped = true
 
 Close_3.Name = "Close"
-Close_3.Parent = Bf
+Close_3.Parent = BloxFruits
 Close_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Close_3.BackgroundTransparency = 1.000
-Close_3.Position = UDim2.new(-0.00130147487, 0, 0, 0)
-Close_3.Size = UDim2.new(0, 54, 0, 50)
-Close_3.Font = Enum.Font.GothamBlack
+Close_3.Size = UDim2.new(0, 47, 0, 50)
+Close_3.Font = Enum.Font.GothamBold
 Close_3.Text = "X"
-Close_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close_3.TextScaled = true
 Close_3.TextSize = 14.000
 Close_3.TextWrapped = true
 
-UICorner_16.Parent = Bf
-
 BKHax.Name = "BKHax"
-BKHax.Parent = Bf
-BKHax.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-BKHax.Position = UDim2.new(0.0617577173, 0, 0.108368009, 0)
-BKHax.Size = UDim2.new(0, 127, 0, 65)
-BKHax.Font = Enum.Font.SciFi
+BKHax.Parent = BloxFruits
+BKHax.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BKHax.Position = UDim2.new(0.0529801324, 0, 0.194244593, 0)
+BKHax.Size = UDim2.new(0, 131, 0, 69)
+BKHax.Font = Enum.Font.Cartoon
 BKHax.Text = "BKHax"
-BKHax.TextColor3 = Color3.fromRGB(255, 255, 255)
+BKHax.TextColor3 = Color3.fromRGB(0, 0, 0)
 BKHax.TextSize = 30.000
 BKHax.TextWrapped = true
 
-UICorner_17.Parent = BKHax
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_7.Parent = BKHax
 
-Mhee.Name = "Mhee"
-Mhee.Parent = Bf
-Mhee.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-Mhee.Position = UDim2.new(0.603325427, 0, 0.214137241, 0)
-Mhee.Size = UDim2.new(0, 127, 0, 65)
-Mhee.Font = Enum.Font.SciFi
-Mhee.Text = "Mhee"
-Mhee.TextColor3 = Color3.fromRGB(255, 255, 255)
-Mhee.TextSize = 30.000
-Mhee.TextWrapped = true
-
-UICorner_18.Parent = Mhee
-
-Xenon.Name = "Xenon"
-Xenon.Parent = Bf
-Xenon.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-Xenon.Position = UDim2.new(0.603325427, 0, 0.108368009, 0)
-Xenon.Size = UDim2.new(0, 127, 0, 65)
-Xenon.Font = Enum.Font.SciFi
-Xenon.Text = "Xenon"
-Xenon.TextColor3 = Color3.fromRGB(255, 255, 255)
-Xenon.TextSize = 30.000
-Xenon.TextWrapped = true
-
-UICorner_19.Parent = Xenon
-
-Evil.Name = "Evil"
-Evil.Parent = Bf
-Evil.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-Evil.Position = UDim2.new(0.0617577173, 0, 0.215098768, 0)
-Evil.Size = UDim2.new(0, 127, 0, 65)
-Evil.Font = Enum.Font.SciFi
-Evil.Text = "Evil"
-Evil.TextColor3 = Color3.fromRGB(255, 255, 255)
-Evil.TextSize = 30.000
-Evil.TextWrapped = true
-
-UICorner_20.Parent = Evil
+UICorner_10.Parent = BKHax
 
 Mammoz.Name = "Mammoz"
-Mammoz.Parent = Bf
-Mammoz.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-Mammoz.Position = UDim2.new(0.0617577173, 0, 0.330483377, 0)
-Mammoz.Size = UDim2.new(0, 127, 0, 65)
-Mammoz.Font = Enum.Font.SciFi
+Mammoz.Parent = BloxFruits
+Mammoz.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Mammoz.Position = UDim2.new(0.578366458, 0, 0.494004786, 0)
+Mammoz.Size = UDim2.new(0, 131, 0, 69)
+Mammoz.Font = Enum.Font.Cartoon
 Mammoz.Text = "Mammoz"
-Mammoz.TextColor3 = Color3.fromRGB(255, 255, 255)
+Mammoz.TextColor3 = Color3.fromRGB(0, 0, 0)
 Mammoz.TextSize = 30.000
 Mammoz.TextWrapped = true
 
-UICorner_21.Parent = Mammoz
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_8.Parent = Mammoz
+
+UICorner_11.Parent = Mammoz
+
+Xenon.Name = "Xenon"
+Xenon.Parent = BloxFruits
+Xenon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Xenon.Position = UDim2.new(0.578366458, 0, 0.194244593, 0)
+Xenon.Size = UDim2.new(0, 131, 0, 69)
+Xenon.Font = Enum.Font.Cartoon
+Xenon.Text = "Xenon"
+Xenon.TextColor3 = Color3.fromRGB(0, 0, 0)
+Xenon.TextSize = 30.000
+Xenon.TextWrapped = true
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_9.Parent = Xenon
+
+UICorner_12.Parent = Xenon
+
+Evil.Name = "Evil"
+Evil.Parent = BloxFruits
+Evil.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Evil.Position = UDim2.new(0.0529801324, 0, 0.800959229, 0)
+Evil.Size = UDim2.new(0, 131, 0, 69)
+Evil.Font = Enum.Font.Cartoon
+Evil.Text = "Evil"
+Evil.TextColor3 = Color3.fromRGB(0, 0, 0)
+Evil.TextSize = 30.000
+Evil.TextWrapped = true
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_10.Parent = Evil
+
+UICorner_13.Parent = Evil
+
+Mhee.Name = "Mhee"
+Mhee.Parent = BloxFruits
+Mhee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Mhee.Position = UDim2.new(0.0529801324, 0, 0.494004786, 0)
+Mhee.Size = UDim2.new(0, 131, 0, 69)
+Mhee.Font = Enum.Font.Cartoon
+Mhee.Text = "Mhee"
+Mhee.TextColor3 = Color3.fromRGB(0, 0, 0)
+Mhee.TextSize = 30.000
+Mhee.TextWrapped = true
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_11.Parent = Mhee
+
+UICorner_14.Parent = Mhee
 
 Bss.Name = "Bss"
-Bss.Parent = Games
-Bss.Active = true
-Bss.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-Bss.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Bss.Position = UDim2.new(0.073820889, 0, -0.00019556284, 0)
-Bss.Size = UDim2.new(0, 421, 0, 447)
+Bss.Parent = Paid
+Bss.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bss.Position = UDim2.new(0.198936164, 0, 0.0796963945, 0)
+Bss.Size = UDim2.new(0, 453, 0, 417)
 Bss.Visible = false
 Bss.Active = true
 Bss.Draggable = true
 
-Title_2.Name = "Title"
-Title_2.Parent = Bss
-Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_2.BackgroundTransparency = 1.000
-Title_2.Position = UDim2.new(0.184928849, 0, 0.0325931683, 0)
-Title_2.Size = UDim2.new(0, 265, 0, 50)
-Title_2.Font = Enum.Font.Cartoon
-Title_2.Text = "Bee Swarms Simulator"
-Title_2.TextColor3 = Color3.fromRGB(0, 255, 255)
-Title_2.TextScaled = true
-Title_2.TextSize = 14.000
-Title_2.TextWrapped = true
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 170, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 255, 127))}
+UIGradient_12.Parent = Bss
 
-UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 170, 0))}
-UIGradient_6.Parent = Title_2
+Bss_2.Name = "Bss"
+Bss_2.Parent = Bss
+Bss_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bss_2.BackgroundTransparency = 1.000
+Bss_2.Position = UDim2.new(0.209497318, 0, 0, 0)
+Bss_2.Size = UDim2.new(0, 262, 0, 50)
+Bss_2.Font = Enum.Font.TitilliumWeb
+Bss_2.Text = "Bee Swarms Simulator"
+Bss_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+Bss_2.TextScaled = true
+Bss_2.TextSize = 14.000
+Bss_2.TextWrapped = true
 
 Close_4.Name = "Close"
 Close_4.Parent = Bss
 Close_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Close_4.BackgroundTransparency = 1.000
-Close_4.Position = UDim2.new(-0.00130147487, 0, 0, 0)
-Close_4.Size = UDim2.new(0, 54, 0, 50)
-Close_4.Font = Enum.Font.GothamBlack
+Close_4.Size = UDim2.new(0, 47, 0, 50)
+Close_4.Font = Enum.Font.GothamBold
 Close_4.Text = "X"
-Close_4.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close_4.TextScaled = true
 Close_4.TextSize = 14.000
 Close_4.TextWrapped = true
 
-UICorner_22.Parent = Bss
+Histy.Name = "Histy"
+Histy.Parent = Bss
+Histy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Histy.Position = UDim2.new(0.059602648, 0, 0.208633095, 0)
+Histy.Size = UDim2.new(0, 168, 0, 77)
+Histy.Font = Enum.Font.Cartoon
+Histy.Text = "Histy"
+Histy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Histy.TextScaled = true
+Histy.TextSize = 30.000
+Histy.TextWrapped = true
 
-upd.Name = "upd"
-upd.Parent = Bss
-upd.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-upd.Position = UDim2.new(0.201900244, 0, 0.116691492, 0)
-upd.Size = UDim2.new(0, 227, 0, 204)
-upd.Font = Enum.Font.SciFi
-upd.Text = "Updating"
-upd.TextColor3 = Color3.fromRGB(255, 255, 255)
-upd.TextScaled = true
-upd.TextSize = 30.000
-upd.TextWrapped = true
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_13.Parent = Histy
 
-UICorner_23.Parent = upd
+UICorner_15.Parent = Histy
 
-Afs.Name = "Afs"
-Afs.Parent = Games
-Afs.Active = true
-Afs.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-Afs.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Afs.Position = UDim2.new(0.073820889, 0, -0.00019556284, 0)
-Afs.Size = UDim2.new(0, 421, 0, 447)
-Afs.Visible = false
-Afs.Active = true
-Afs.Draggable = true
+DarkCyber.Name = "Dark Cyber"
+DarkCyber.Parent = Bss
+DarkCyber.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DarkCyber.Position = UDim2.new(0.560706377, 0, 0.208633095, 0)
+DarkCyber.Size = UDim2.new(0, 168, 0, 77)
+DarkCyber.Font = Enum.Font.Cartoon
+DarkCyber.Text = "Dark Cyber"
+DarkCyber.TextColor3 = Color3.fromRGB(0, 0, 0)
+DarkCyber.TextScaled = true
+DarkCyber.TextSize = 30.000
+DarkCyber.TextWrapped = true
 
-Title_3.Name = "Title"
-Title_3.Parent = Afs
-Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_3.BackgroundTransparency = 1.000
-Title_3.Position = UDim2.new(0.17780295, 0, 0.040638268, 0)
-Title_3.Size = UDim2.new(0, 272, 0, 50)
-Title_3.Font = Enum.Font.Cartoon
-Title_3.Text = "Anime Fighters Simulator"
-Title_3.TextColor3 = Color3.fromRGB(0, 255, 255)
-Title_3.TextScaled = true
-Title_3.TextSize = 14.000
-Title_3.TextWrapped = true
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_14.Parent = DarkCyber
 
-UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 170, 0))}
-UIGradient_7.Parent = Title_3
-
-Close_5.Name = "Close"
-Close_5.Parent = Afs
-Close_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Close_5.BackgroundTransparency = 1.000
-Close_5.Position = UDim2.new(-0.00130147487, 0, 0, 0)
-Close_5.Size = UDim2.new(0, 54, 0, 50)
-Close_5.Font = Enum.Font.GothamBlack
-Close_5.Text = "X"
-Close_5.TextColor3 = Color3.fromRGB(255, 0, 0)
-Close_5.TextScaled = true
-Close_5.TextSize = 14.000
-Close_5.TextWrapped = true
-
-UICorner_24.Parent = Afs
-
-Shrawu.Name = "Shrawu"
-Shrawu.Parent = Afs
-Shrawu.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-Shrawu.Position = UDim2.new(0.0617577173, 0, 0.108368009, 0)
-Shrawu.Size = UDim2.new(0, 127, 0, 65)
-Shrawu.Font = Enum.Font.SciFi
-Shrawu.Text = "Shrawu"
-Shrawu.TextColor3 = Color3.fromRGB(255, 255, 255)
-Shrawu.TextSize = 30.000
-Shrawu.TextWrapped = true
-
-UICorner_25.Parent = Shrawu
-
-Polar.Name = "Polar"
-Polar.Parent = Afs
-Polar.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-Polar.Position = UDim2.new(0.603325427, 0, 0.108368009, 0)
-Polar.Size = UDim2.new(0, 127, 0, 65)
-Polar.Font = Enum.Font.SciFi
-Polar.Text = "Polar"
-Polar.TextColor3 = Color3.fromRGB(255, 255, 255)
-Polar.TextSize = 30.000
-Polar.TextWrapped = true
-
-UICorner_26.Parent = Polar
+UICorner_16.Parent = DarkCyber
 
 Psx.Name = "Psx"
-Psx.Parent = Games
-Psx.Active = true
-Psx.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-Psx.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Psx.Position = UDim2.new(0.073820889, 0, -0.00019556284, 0)
-Psx.Size = UDim2.new(0, 421, 0, 447)
+Psx.Parent = Paid
+Psx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Psx.Position = UDim2.new(0.198936164, 0, 0.0796963945, 0)
+Psx.Size = UDim2.new(0, 453, 0, 417)
 Psx.Visible = false
 Psx.Active = true
 Psx.Draggable = true
 
-Title_4.Name = "Title"
-Title_4.Parent = Psx
-Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_4.BackgroundTransparency = 1.000
-Title_4.Position = UDim2.new(0.234810084, 0, 0.0278846156, 0)
-Title_4.Size = UDim2.new(0, 200, 0, 50)
-Title_4.Font = Enum.Font.Cartoon
-Title_4.Text = "Pet Simulator X"
-Title_4.TextColor3 = Color3.fromRGB(0, 255, 255)
-Title_4.TextScaled = true
-Title_4.TextSize = 14.000
-Title_4.TextWrapped = true
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 170, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 255, 127))}
+UIGradient_15.Parent = Psx
 
-UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 170, 0))}
-UIGradient_8.Parent = Title_4
+Psx_2.Name = "Psx"
+Psx_2.Parent = Psx
+Psx_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Psx_2.BackgroundTransparency = 1.000
+Psx_2.Position = UDim2.new(0.277929991, 0, 0, 0)
+Psx_2.Size = UDim2.new(0, 200, 0, 50)
+Psx_2.Font = Enum.Font.TitilliumWeb
+Psx_2.Text = "Pet Simulator X"
+Psx_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+Psx_2.TextScaled = true
+Psx_2.TextSize = 14.000
+Psx_2.TextWrapped = true
 
-Close_6.Name = "Close"
-Close_6.Parent = Psx
-Close_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Close_6.BackgroundTransparency = 1.000
-Close_6.Position = UDim2.new(-0.00130147487, 0, 0, 0)
-Close_6.Size = UDim2.new(0, 54, 0, 50)
-Close_6.Font = Enum.Font.GothamBlack
-Close_6.Text = "X"
-Close_6.TextColor3 = Color3.fromRGB(255, 0, 0)
-Close_6.TextScaled = true
-Close_6.TextSize = 14.000
-Close_6.TextWrapped = true
+Close_5.Name = "Close"
+Close_5.Parent = Psx
+Close_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_5.BackgroundTransparency = 1.000
+Close_5.Size = UDim2.new(0, 47, 0, 50)
+Close_5.Font = Enum.Font.GothamBold
+Close_5.Text = "X"
+Close_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_5.TextScaled = true
+Close_5.TextSize = 14.000
+Close_5.TextWrapped = true
 
-UICorner_27.Parent = Psx
+SystemExodus.Name = "System Exodus"
+SystemExodus.Parent = Psx
+SystemExodus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SystemExodus.Position = UDim2.new(0.0573951453, 0, 0.21822542, 0)
+SystemExodus.Size = UDim2.new(0, 156, 0, 85)
+SystemExodus.Font = Enum.Font.Cartoon
+SystemExodus.Text = "System Exodus"
+SystemExodus.TextColor3 = Color3.fromRGB(0, 0, 0)
+SystemExodus.TextScaled = true
+SystemExodus.TextSize = 30.000
+SystemExodus.TextWrapped = true
 
-upd_2.Name = "upd"
-upd_2.Parent = Psx
-upd_2.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-upd_2.Position = UDim2.new(0.123515442, 0, 0.126904309, 0)
-upd_2.Size = UDim2.new(0, 317, 0, 218)
-upd_2.Font = Enum.Font.SciFi
-upd_2.Text = "Updating"
-upd_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-upd_2.TextScaled = true
-upd_2.TextSize = 30.000
-upd_2.TextWrapped = true
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_16.Parent = SystemExodus
 
-UICorner_28.Parent = upd_2
+UICorner_17.Parent = SystemExodus
+
+Naypramx.Name = "Naypramx"
+Naypramx.Parent = Psx
+Naypramx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Naypramx.Position = UDim2.new(0.59602648, 0, 0.21822542, 0)
+Naypramx.Size = UDim2.new(0, 156, 0, 85)
+Naypramx.Font = Enum.Font.Cartoon
+Naypramx.Text = "Naypramx"
+Naypramx.TextColor3 = Color3.fromRGB(0, 0, 0)
+Naypramx.TextScaled = true
+Naypramx.TextSize = 30.000
+Naypramx.TextWrapped = true
+
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_17.Parent = Naypramx
+
+UICorner_18.Parent = Naypramx
 
 -- Scripts:
 
-local function UABLC_fake_script() -- Check.LocalScript 
+local function NFDP_fake_script() -- Check.LocalScript 
 	local script = Instance.new('LocalScript', Check)
 
+	local status = script.Parent.Parent.status
+	local id = script.Parent.Parent.Id
+	local openbfbutton = script.Parent.Parent.Parent.Openbuttons.openbf
+	local openbssbutton = script.Parent.Parent.Parent.Openbuttons.Openbss
+	local openpsxbutton = script.Parent.Parent.Parent.Openbuttons.openpx
+	local openafsbutton = script.Parent.Parent.Parent.Openbuttons.openafs
 	local button = script.Parent
-	local option = script.Parent.Parent.Parent.Option
-	local id = script.Parent.Parent.ID
-	local status = script.Parent.Parent.Status
-	--
+	local hubbf = script.Parent.Parent.Parent.BloxFruits
+	local hubbss = script.Parent.Parent.Parent.Bss
+	local hubpsx = script.Parent.Parent.Parent.Psx
+	local hubafs = script.Parent.Parent.Parent.Afs
 	button.MouseButton1Click:Connect(function()
-		if id.Text == "1dcd2r888f8dc"
-		or id.Text == "12554f5ff8c89"
-		or id.Text == "e5542555eedcb"
-		or id.Text == "12ff58ccc9asd"
-		or id.Text == "74545daaacbb"
-		or id.Text == "1262008admin"
-		then
-			button.Active = false
-			status.TextColor3 = Color3.new(0, 0, 0)
-			status.Text = "Checking..."
-			wait(.5)
-			status.Text = "Checking."
-			wait(.5)
-			status.Text = "Checking.."
-			wait(.5)
-			status.Text = "Checking..."
-			wait(.5)
-			status.Text = "Checking."
-			status.TextColor3 = Color3.new(0, 1, 0.498039)
-			status.Text = "SUCCESS"
-			wait(1)
-			status.TextColor3 = Color3.new(1, 0, 0)
-			status.Text = "Loading Legacy Hub!"
+		-- BF
+		if id.Text == "1dcd2r888f8dc" and game.PlaceId == 2753915549
+			or id.Text == "12554f5ff8c89" and game.PlaceId == 2753915549 
+			or id.Text == "e5542555eedcb" and game.PlaceId == 2753915549
+			or id.Text == "74545daaacbb" and game.PlaceId == 2753915549
+			or Id.Text == "12ff58ccc9asd" and game.PlaceId == 2753915549
+			or Id.Text == "1262008admin" and game.PlaceId == 2753915549
+			or Id.Text == "1dcd2r888f8dc" and game.PlaceId == 4442272183
+			or id.Text == "12554f5ff8c89" and game.PlaceId == 4442272183  
+			or id.Text == "e5542555eedcb" and game.PlaceId == 4442272183 
+			or id.Text == "74545daaacbb" and game.PlaceId == 4442272183 
+			or Id.Text == "12ff58ccc9asd" and game.PlaceId == 4442272183 
+			or Id.Text == "1262008admin" and game.PlaceId == 4442272183 then
+			status.TextColor3 = Color3.new(1, 1, 0)
+			status.Text = "Checking"
 			wait(2)
-			script.Parent.Parent:Destroy()
-			option.Visible = true
-		else
-			status.TextColor3 = Color3.new(0, 0, 0)
-			status.Text = "Checking..."
-			wait(.5)
-			status.Text = "Checking."
-			wait(.5)
-			status.Text = "Checking.."
-			wait(.5)
-			status.Text = "Checking..."
-			wait(.5)
-			status.Text = "Checking."
-			wait(0.3)
+			status.TextColor3 = Color3.new(0, 1, 0)
+			status.Text = "Correct!"
+			wait(1)
+			status.TextColor3 = Color3.new(1, 1, 0)
+			status.Text = "Checking Game"
+			wait(2)
 			status.TextColor3 = Color3.new(1, 0, 0)
-			status.Text = "Wrong ID"
+			status.Text = "Loading Blox Fruits Hub"
+			script.Parent.Parent:Destroy()
+			openbfbutton.Visible = true
+			hubbf.Visible = true
+		else
+			status.TextColor3 = Color3.new(1, 1, 0)
+			status.Text = "Checking"
+			wait(2)
+			status.TextColor3 = Color3.new(1, 0, 0)
+			status.Text = "Something Wrong!"
+		end
+		-- BSS
+		if id.Text == "12554f5ff8c89" and game.PlaceId == 1537690962 
+			or Id.Text == "1dcd2r888f8dc" and game.PlaceId == 1537690962
+			or id.Text == "e5542555eedcb" and game.PlaceId == 1537690962 
+			or id.Text == "74545daaacbb" and game.PlaceId == 1537690962 
+			or Id.Text == "12ff58ccc9asd" and game.PlaceId == 1537690962 
+			or Id.Text == "1262008admin" and game.PlaceId == 1537690962 then
+			status.TextColor3 = Color3.new(1, 1, 0)
+			status.Text = "Checking"
+			wait(2)
+			status.TextColor3 = Color3.new(0, 1, 0)
+			status.Text = "Correct!"
+			wait(1)
+			status.TextColor3 = Color3.new(1, 1, 0)
+			status.Text = "Checking Game"
+			wait(2)
+			status.TextColor3 = Color3.new(1, 0, 0)
+			status.Text = "Loading Bee Swarms Simulator Hub"
+			script.Parent.Parent:Destroy()
+			openbssbutton.Visible = true
+			hubbss.Visible = true
+		else
+			status.TextColor3 = Color3.new(1, 1, 0)
+			status.Text = "Checking"
+			wait(2)
+			status.TextColor3 = Color3.new(1, 0, 0)
+			status.Text = "Something Wrong!"
+		end
+		-- PSX
+		if id.Text == "1dcd2r888f8dc" and game.PlaceId == 6284583030
+			or id.Text == "12554f5ff8c89" and game.PlaceId == 6284583030
+			or id.Text == "e5542555eedcb" and game.PlaceId == 6284583030
+			or id.Text == "12ff58ccc9asd" and game.PlaceId == 6284583030
+			or id.Text == "74545daaacbb" and game.PlaceId == 6284583030
+			or id.Text == "1262008admin" and game.PlaceId == 6284583030 then
+			status.TextColor3 = Color3.new(1, 1, 0)
+			status.Text = "Checking"
+			wait(2)
+			status.TextColor3 = Color3.new(0, 1, 0)
+			status.Text = "Correct!"
+			wait(1)
+			status.TextColor3 = Color3.new(1, 1, 0)
+			status.Text = "Checking Game"
+			wait(2)
+			status.TextColor3 = Color3.new(1, 0, 0)
+			status.Text = "Loading Pet Simulator X Hub"
+			script.Parent.Parent:Destroy()
+			openpsxbutton.Visible = true
+			hubpsx.Visible = true
+		else
+			status.TextColor3 = Color3.new(1, 1, 0)
+			status.Text = "Checking"
+			wait(2)
+			status.TextColor3 = Color3.new(1, 0, 0)
+			status.Text = "Something Wrong!"
+		end
+		-- AFS
+		if id.Text == "1dcd2r888f8dc" and game.PlaceId == 6299805723 
+			or id.Text == "12554f5ff8c89" and game.PlaceId == 6299805723 
+			or id.Text == "e5542555eedcb" and game.PlaceId == 6299805723 
+			or id.Text == "12ff58ccc9asd" and game.PlaceId == 6299805723 
+			or id.Text == "74545daaacbb" and game.PlaceId == 6299805723 
+			or id.Text == "1262008admin"  and game.PlaceId == 6299805723  then
+			status.TextColor3 = Color3.new(1, 1, 0)
+			status.Text = "Checking"
+			wait(2)
+			status.TextColor3 = Color3.new(0, 1, 0)
+			status.Text = "Correct!"
+			wait(1)
+			status.TextColor3 = Color3.new(1, 1, 0)
+			status.Text = "Checking Game"
+			wait(2)
+			status.TextColor3 = Color3.new(1, 0, 0)
+			status.Text = "Loading Anime Fighters Simulator Hub"
+			script.Parent.Parent:Destroy()
+			openafsbutton.Visible = true
+			hubafs.Visible = true
+		else
+			status.TextColor3 = Color3.new(1, 1, 0)
+			status.Text = "Checking"
+			wait(2)
+			status.TextColor3 = Color3.new(1, 0, 0)
+			status.Text = "Something Wrong!"
 		end
 	end)
+	
 end
-coroutine.wrap(UABLC_fake_script)()
-local function TQBBQI_fake_script() -- Close.LocalScript 
+coroutine.wrap(NFDP_fake_script)()
+local function FSKGRZD_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local button = script.Parent
-	local req = script.Parent.Parent.Parent.Req
-	local openbutton = script.Parent.Parent.Parent.OpenButtons.OpenReqButton
-	--
-	button.MouseButton1Click:Connect(function()
-		req.Visible = false
-		openbutton.Visible = true
-	end)
-end
-coroutine.wrap(TQBBQI_fake_script)()
-local function OPRWS_fake_script() -- BFsupport.LocalScript 
-	local script = Instance.new('LocalScript', BFsupport)
-
-	local button = script.Parent
-	local hub = script.Parent.Parent.Parent.Games.Bf
-	--
-	button.MouseButton1Click:Connect(function()
-		hub.Visible = true
-		script.Parent.Parent:Destroy()
-	end)
-end
-coroutine.wrap(OPRWS_fake_script)()
-local function LVRRT_fake_script() -- BSSsupport.LocalScript 
-	local script = Instance.new('LocalScript', BSSsupport)
-
-	local button = script.Parent
-	local hub = script.Parent.Parent.Parent.Games.Bss
-	--
-	button.MouseButton1Click:Connect(function()
-		hub.Visible = true
-		script.Parent.Parent:Destroy()
-	end)
-end
-coroutine.wrap(LVRRT_fake_script)()
-local function VPMK_fake_script() -- AFSsupport.LocalScript 
-	local script = Instance.new('LocalScript', AFSsupport)
-
-	local button = script.Parent
-	local hub = script.Parent.Parent.Parent.Games.Afs
-	--
-	button.MouseButton1Click:Connect(function()
-		hub.Visible = true
-		script.Parent.Parent:Destroy()
-	end)
-end
-coroutine.wrap(VPMK_fake_script)()
-local function BJFNSN_fake_script() -- PSXsupport.LocalScript 
-	local script = Instance.new('LocalScript', PSXsupport)
-
-	local button = script.Parent
-	local hub = script.Parent.Parent.Parent.Games.Psx
-	--
-	button.MouseButton1Click:Connect(function()
-		hub.Visible = true
-		script.Parent.Parent:Destroy()
-	end)
-end
-coroutine.wrap(BJFNSN_fake_script)()
-local function LHQH_fake_script() -- Close_2.LocalScript 
-	local script = Instance.new('LocalScript', Close_2)
-
-	local button = script.Parent
-	local openbutton = script.Parent.Parent.Parent.OpenButtons.OpenOptionButton
-	local option = script.Parent.Parent.Parent.Option
-	button.MouseButton1Click:Connect(function()
-		option.Visible = false
-		openbutton.Visible = true
-	end)
-end
-coroutine.wrap(LHQH_fake_script)()
-local function KKDW_fake_script() -- OpenOptionButton.LocalScript 
-	local script = Instance.new('LocalScript', OpenOptionButton)
-
-	local button = script.Parent
-	local Option = script.Parent.Parent.Parent.Option
-	local open = false
-	--
-	button.MouseButton1Click:Connect(function()
-		Option.Visible = true
-		button.Visible = false
-	end)
-end
-coroutine.wrap(KKDW_fake_script)()
-local function RHED_fake_script() -- OpenBssButton.LocalScript 
-	local script = Instance.new('LocalScript', OpenBssButton)
-
-	local button = script.Parent
-	local hub = script.Parent.Parent.Parent.Games.Bss
-	local open = false
-	button.MouseButton1Click:Connect(function()
-		hub.Visible = true
-		button.Visible = false
-	end)
-end
-coroutine.wrap(RHED_fake_script)()
-local function EAQO_fake_script() -- OpenBfButton.LocalScript 
-	local script = Instance.new('LocalScript', OpenBfButton)
-
-	local button = script.Parent
-	local hub = script.Parent.Parent.Parent.Games.Bf
-	local open = false
-	--
-	button.MouseButton1Click:Connect(function()
-		hub.Visible = true
-		button.Visible = false
-	end)
-end
-coroutine.wrap(EAQO_fake_script)()
-local function AWWUV_fake_script() -- OpenAfsButton.LocalScript 
-	local script = Instance.new('LocalScript', OpenAfsButton)
-
-	local button = script.Parent
-	local hub = script.Parent.Parent.Parent.Games.Afs
-	local open = false
-	--
-	button.MouseButton1Click:Connect(function()
-		hub.Visible = true
-		button.Visible = false
-	end)
-end
-coroutine.wrap(AWWUV_fake_script)()
-local function UAYAN_fake_script() -- OpenPsxButton.LocalScript 
-	local script = Instance.new('LocalScript', OpenPsxButton)
-
-	local button = script.Parent
-	local hub = script.Parent.Parent.Parent.Games.Psx
-	local open = false
-	--
-	button.MouseButton1Click:Connect(function()
-		hub.Visible = true
-		button.Visible = false
-	end)
-end
-coroutine.wrap(UAYAN_fake_script)()
-local function DRQBPQ_fake_script() -- OpenReqButton.LocalScript 
-	local script = Instance.new('LocalScript', OpenReqButton)
-
-	local button = script.Parent
-	local req = script.Parent.Parent.Parent.Req
-	local open = false
-	--
-	button.MouseEnter:Connect(function()
-		req.Visible = true
-		script.Parent.Visible = false
-	end)
-end
-coroutine.wrap(DRQBPQ_fake_script)()
-local function HKWNZH_fake_script() -- Close_3.LocalScript 
-	local script = Instance.new('LocalScript', Close_3)
-
-	local button = script.Parent
-	local hub = script.Parent.Parent.Parent.Bf
-	local openbutton = script.Parent.Parent.Parent.Parent.OpenButtons.OpenBfButton
-	--
+	local open = script.Parent.Parent.Parent.Openbuttons.Openlogin
+	local hub = script.Parent.Parent
 	button.MouseButton1Click:Connect(function()
 		hub.Visible = false
-		openbutton.Visible = true
+		open.Visible = true
 	end)
 end
-coroutine.wrap(HKWNZH_fake_script)()
-local function EFLMWGQ_fake_script() -- BKHax.LocalScript 
-	local script = Instance.new('LocalScript', BKHax)
+coroutine.wrap(FSKGRZD_fake_script)()
+local function VUXQY_fake_script() -- openbf.LocalScript 
+	local script = Instance.new('LocalScript', openbf)
 
 	local button = script.Parent
+	local hub = script.Parent.Parent.Parent.BloxFruits
+	local open = false
 	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(("https://raw.githubusercontent.com/koonpeatch/PeatEX/master/BKHAX/BKHAXHUB"),true))()
+		hub.Visible = true
 	end)
 end
-coroutine.wrap(EFLMWGQ_fake_script)()
-local function NBAWMJT_fake_script() -- Mhee.LocalScript 
-	local script = Instance.new('LocalScript', Mhee)
-
-	local button = script.Parent
-	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnySalf/Hentai/main/MHEEHUB",true))()
-	end)
-end
-coroutine.wrap(NBAWMJT_fake_script)()
-local function ZNHI_fake_script() -- Xenon.LocalScript 
-	local script = Instance.new('LocalScript', Xenon)
-
-	local button = script.Parent
-	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://reaperking.xyz/bloxfruits", true))()
-	end)
-end
-coroutine.wrap(ZNHI_fake_script)()
-local function JDADNI_fake_script() -- Evil.LocalScript 
-	local script = Instance.new('LocalScript', Evil)
-
-	local button = script.Parent
-	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Natthawat69/EvilHub-FREE/main/Script.lua"))()
-	end)
-end
-coroutine.wrap(JDADNI_fake_script)()
-local function MENOWPY_fake_script() -- Mammoz.LocalScript 
-	local script = Instance.new('LocalScript', Mammoz)
-
-	local button = script.Parent
-	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(("https://raw.githubusercontent.com/DryLowGame/mammoz/main/mammoz.lua"),true))
-	end)
-end
-coroutine.wrap(MENOWPY_fake_script)()
-local function ATFBIJ_fake_script() -- Close_4.LocalScript 
-	local script = Instance.new('LocalScript', Close_4)
+coroutine.wrap(VUXQY_fake_script)()
+local function MNWV_fake_script() -- Openbss.LocalScript 
+	local script = Instance.new('LocalScript', Openbss)
 
 	local button = script.Parent
 	local hub = script.Parent.Parent.Parent.Bss
-	local openbutton = script.Parent.Parent.Parent.Parent.OpenButtons.OpenBssButton
-	--
+	local open = false
 	button.MouseButton1Click:Connect(function()
-		hub.Visible = false
-		openbutton.Visible = true
+		hub.Visible = true
+		button.Visible = false
 	end)
 end
-coroutine.wrap(ATFBIJ_fake_script)()
-local function PVLZZ_fake_script() -- upd.LocalScript 
-	local script = Instance.new('LocalScript', upd)
-
-	local button = script.Parent
-	button.MouseButton1Click:Connect(function()
-		print("UPDATING!")
-	end)
-end
-coroutine.wrap(PVLZZ_fake_script)()
-local function ZCQOFQX_fake_script() -- Close_5.LocalScript 
-	local script = Instance.new('LocalScript', Close_5)
+coroutine.wrap(MNWV_fake_script)()
+local function SMRZNOX_fake_script() -- openafs.LocalScript 
+	local script = Instance.new('LocalScript', openafs)
 
 	local button = script.Parent
 	local hub = script.Parent.Parent.Parent.Afs
-	local openbutton = script.Parent.Parent.Parent.Parent.OpenButtons.OpenAfsButton
-	--
+	local open = false
+	button.MouseButton1Click:Connect(function()
+		hub.Visible = true
+		button.Visible = false
+	end)
+end
+coroutine.wrap(SMRZNOX_fake_script)()
+local function XZOCK_fake_script() -- openpx.LocalScript 
+	local script = Instance.new('LocalScript', openpx)
+
+	local button = script.Parent
+	local hub = script.Parent.Parent.Parent.Psx
+	local open = false
+	button.MouseButton1Click:Connect(function()
+		hub.Visible = true
+		button.Visible = false
+	end)
+end
+coroutine.wrap(XZOCK_fake_script)()
+local function TXJC_fake_script() -- Openlogin.LocalScript 
+	local script = Instance.new('LocalScript', Openlogin)
+
+	local button = script.Parent
+	local hub = script.Parent.Parent.Parent.Req
+	local open = false
+	button.MouseButton1Click:Connect(function()
+		hub.Visible = true
+		button.Visible = false
+	end)
+end
+coroutine.wrap(TXJC_fake_script)()
+local function ELMH_fake_script() -- Close_2.LocalScript 
+	local script = Instance.new('LocalScript', Close_2)
+
+	local button = script.Parent
+	local openbutton = script.Parent.Parent.Parent.Openbuttons.openafs
+	local hub = script.Parent.Parent.Parent.Afs
 	button.MouseButton1Click:Connect(function()
 		hub.Visible = false
 		openbutton.Visible = true
 	end)
 end
-coroutine.wrap(ZCQOFQX_fake_script)()
-local function MVJEF_fake_script() -- Shrawu.LocalScript 
-	local script = Instance.new('LocalScript', Shrawu)
-
-	local button = script.Parent
-	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/shrawu/ShrawuScript/main/AnimeFightersSimulator.lua", true))()()
-	end)
-end
-coroutine.wrap(MVJEF_fake_script)()
-local function FEMAE_fake_script() -- Polar.LocalScript 
+coroutine.wrap(ELMH_fake_script)()
+local function WEIKX_fake_script() -- Polar.LocalScript 
 	local script = Instance.new('LocalScript', Polar)
 
 	local button = script.Parent
@@ -1004,26 +815,132 @@ local function FEMAE_fake_script() -- Polar.LocalScript
 		loadstring(game:HttpGet(("https://pastebin.com/raw/y4V5Y5DM"),true))()
 	end)
 end
-coroutine.wrap(FEMAE_fake_script)()
-local function DRIR_fake_script() -- Close_6.LocalScript 
-	local script = Instance.new('LocalScript', Close_6)
+coroutine.wrap(WEIKX_fake_script)()
+local function HNLGOU_fake_script() -- Shrawu.LocalScript 
+	local script = Instance.new('LocalScript', Shrawu)
 
 	local button = script.Parent
-	local hub = script.Parent.Parent.Parent.Psx
-	local openbutton = script.Parent.Parent.Parent.Parent.OpenButtons.OpenPsxButton
-	--
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/shrawu/ShrawuScript/main/AnimeFightersSimulator.lua", true))()
+	end)
+end
+coroutine.wrap(HNLGOU_fake_script)()
+local function LSEIJI_fake_script() -- Close_3.LocalScript 
+	local script = Instance.new('LocalScript', Close_3)
+
+	local button = script.Parent
+	local openbutton = script.Parent.Parent.Parent.Openbuttons.openbf
+	local hub = script.Parent.Parent.Parent.BloxFruits
 	button.MouseButton1Click:Connect(function()
 		hub.Visible = false
 		openbutton.Visible = true
 	end)
 end
-coroutine.wrap(DRIR_fake_script)()
-local function FACF_fake_script() -- upd_2.LocalScript 
-	local script = Instance.new('LocalScript', upd_2)
+coroutine.wrap(LSEIJI_fake_script)()
+local function XNZUSH_fake_script() -- BKHax.LocalScript 
+	local script = Instance.new('LocalScript', BKHax)
 
 	local button = script.Parent
 	button.MouseButton1Click:Connect(function()
-		print("UPDATING!")
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/koonpeatch/PeatEX/master/BKHAX/BKHAXHUB"),true))()
 	end)
 end
-coroutine.wrap(FACF_fake_script)()
+coroutine.wrap(XNZUSH_fake_script)()
+local function WUFQ_fake_script() -- Mammoz.LocalScript 
+	local script = Instance.new('LocalScript', Mammoz)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/DryLowGame/mammoz/main/mammoz.lua"),true))
+	end)
+end
+coroutine.wrap(WUFQ_fake_script)()
+local function CKLUU_fake_script() -- Xenon.LocalScript 
+	local script = Instance.new('LocalScript', Xenon)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://reaperking.xyz/bloxfruits", true))()
+	end)
+end
+coroutine.wrap(CKLUU_fake_script)()
+local function YRLZVOZ_fake_script() -- Evil.LocalScript 
+	local script = Instance.new('LocalScript', Evil)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Natthawat69/EvilHub-FREE/main/Script.lua"))()
+	end)
+end
+coroutine.wrap(YRLZVOZ_fake_script)()
+local function YEYFCU_fake_script() -- Mhee.LocalScript 
+	local script = Instance.new('LocalScript', Mhee)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnySalf/Hentai/main/MHEEHUB",true))()
+	end)
+end
+coroutine.wrap(YEYFCU_fake_script)()
+local function DTNPXQ_fake_script() -- Close_4.LocalScript 
+	local script = Instance.new('LocalScript', Close_4)
+
+	local button = script.Parent
+	local openbutton = script.Parent.Parent.Parent.Openbuttons.Openbss
+	local hub = script.Parent.Parent.Parent.Bss
+	button.MouseButton1Click:Connect(function()
+		hub.Visible = false
+		openbutton.Visible = true
+	end)
+end
+coroutine.wrap(DTNPXQ_fake_script)()
+local function ATBV_fake_script() -- Histy.LocalScript 
+	local script = Instance.new('LocalScript', Histy)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Historia00012/HISTORIAHUB/main/BSS%20FREE"))()
+	end)
+end
+coroutine.wrap(ATBV_fake_script)()
+local function IFJHLW_fake_script() -- DarkCyber.LocalScript 
+	local script = Instance.new('LocalScript', DarkCyber)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/3A61hnGA"))()
+	end)
+end
+coroutine.wrap(IFJHLW_fake_script)()
+local function MNNHGZ_fake_script() -- Close_5.LocalScript 
+	local script = Instance.new('LocalScript', Close_5)
+
+	local button = script.Parent
+	local openbutton = script.Parent.Parent.Parent.Openbuttons.openpx
+	local hub = script.Parent.Parent.Parent.Psx
+	button.MouseButton1Click:Connect(function()
+		hub.Visible = false
+		openbutton.Visible = true
+	end)
+end
+coroutine.wrap(MNNHGZ_fake_script)()
+local function TJATFCM_fake_script() -- SystemExodus.LocalScript 
+	local script = Instance.new('LocalScript', SystemExodus)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua", true))()
+	end)
+	
+end
+coroutine.wrap(TJATFCM_fake_script)()
+local function RWUQ_fake_script() -- Naypramx.LocalScript 
+	local script = Instance.new('LocalScript', Naypramx)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/95HthyJq"))()
+	end)
+	
+end
+coroutine.wrap(RWUQ_fake_script)()
